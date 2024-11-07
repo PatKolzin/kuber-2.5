@@ -116,7 +116,6 @@ service:
 
 Проверим установку:
 
-![image](https://github.com/user-attachments/assets/336f8d46-081e-47e7-b00e-9fd6ae2b6f5c)
 ![image](https://github.com/user-attachments/assets/8dff0fc4-cf04-4e75-a8ae-ccd98b4f0333)
 
 Приложение также успешно развернуто.
