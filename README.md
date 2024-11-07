@@ -20,7 +20,7 @@
 
 Подготовим ```deployment``` ```service``` и разместим их в директории ```templates/```:
 
-- [templates/deployment.yaml]()
+- Манифест [templates/deployment.yaml](https://github.com/PatKolzin/kuber-2.5/blob/main/src/nginx-chart/templates/deployment.yaml)
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -44,7 +44,7 @@ spec:
           ports:
             - containerPort: 80
 ```
-- [templates/service.yaml]()
+- Манифест [templates/service.yaml](https://github.com/PatKolzin/kuber-2.5/blob/main/src/nginx-chart/templates/service.yaml)
 ```yaml
 apiVersion: v1
 kind: Service
@@ -59,7 +59,7 @@ spec:
     app: {{ include "nginx-chart.name" . }}
 ```
 Подготовим ```Chart```: 
-- [Chart.yaml]()
+- Манифест [Chart.yaml](https://github.com/PatKolzin/kuber-2.5/blob/main/src/nginx-chart/Chart.yaml)
 ```yaml
   apiVersion: v2
   name: nginx-chart
@@ -70,7 +70,7 @@ spec:
   appVersion: "1.16.0"
 ```
 Подготовим ```values```:
-- [values.yaml]()
+- Манифест [values.yaml](https://github.com/PatKolzin/kuber-2.5/blob/main/src/nginx-chart/values.yaml)
 ```yaml
 image:
   repository: nginx
