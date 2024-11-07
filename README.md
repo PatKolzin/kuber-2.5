@@ -84,10 +84,6 @@ service:
   port: 80
 ```
 
-Запускаем несколько копий приложения в namespace `app1` и `app2`
-![image](https://github.com/user-attachments/assets/53431d26-e6de-41be-b882-f8f509b2ce4f)
-![image](https://github.com/user-attachments/assets/eb690afd-cb3f-405c-9a2d-e8a73d060d12)
-
 Поменяем номер версии приложения в файле ```Chart.yaml```:
 ```yaml
   apiVersion: v2
@@ -113,6 +109,10 @@ service:
 3. Продемонстрируйте результат.
 
 #### Решение
+
+Запускаем несколько копий приложения в namespace `app1` и `app2`
+![image](https://github.com/user-attachments/assets/53431d26-e6de-41be-b882-f8f509b2ce4f)
+![image](https://github.com/user-attachments/assets/eb690afd-cb3f-405c-9a2d-e8a73d060d12)
 
 Проверим установку:
 
